@@ -38,7 +38,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   -webkit-transition: all 0.4s ease-in-out;
@@ -350,7 +350,7 @@ section {
 }
 
 .about-container .right-about .about-item .abt-text .small-text::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 15px;
@@ -464,7 +464,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
   width: 20%;
 }
-
+.about-stats .progress-bars .progress-bar .progress-con .progress .typescript {
+  width: 20%;
+}
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -474,7 +476,7 @@ section {
 }
 
 .stat-title::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 0;
@@ -740,7 +742,7 @@ section {
 }
 
 .main-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
