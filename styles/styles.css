@@ -18,6 +18,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-green: #2fe22f;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
@@ -220,10 +221,10 @@ section {
   position: relative;
 }
 
-.header-content .left-header .h-shape {
+.h-shape {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  width: 65%;
+  width: 12%;
   height: 100%;
   background-color: var(--color-secondary);
   position: absolute;
@@ -271,7 +272,8 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-right: 18rem;
+  margin-left: 10rem;
+  width: 100%;
 }
 
 .header-content .right-header .name {
@@ -438,7 +440,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 50%;
+  width: 60%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
@@ -455,14 +457,14 @@ section {
   .progress-con
   .progress
   .responsive-design {
-  width: 50%;
+  width: 60%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 40%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
-  width: 20%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .shopify {
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .typescript {
   width: 20%;
@@ -697,6 +699,46 @@ section {
 }
 
 /*Independed components*/
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.btn-open-to-work {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-grey-4);
+  border-radius: 30px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.btn-dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-green);
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 10px var(--color-green);
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 64px;
+}
+.projects-content {
+  display: flex;
+  gap: 3rem;
+}
+.project-paragraph {
+  font-size: 15px;
+  line-height: 2;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .btn-con {
   display: -webkit-box;
   display: -ms-flexbox;
